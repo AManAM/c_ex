@@ -7,6 +7,6 @@ void sumarCien(int* a){
 int main(){
 	int paraSumar = 100;
 	sumarCien(&paraSumar);
-	printf("%d",paraSumar);
+	printf("100 + 100 = %d",paraSumar);
 	return 0;
 }
